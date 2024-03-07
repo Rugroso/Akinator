@@ -3,60 +3,80 @@
         "Nombre": "Dario",
         "Origen": "Mexicali",
         "Moguea": "Si",
-        "Lentes": "Si"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "Si"
     },
     {
         "Nombre": "Guillermo",
         "Origen": "Michoacan de ocampo",
         "Moguea": "No",
-        "Lentes": "No"
+        "Lentes": "No",
+        "Acumulado": 0,
+        "Pareja": "No"
     },
     {
         "Nombre": "Abraham",
         "Origen": "San Luis",
         "Moguea": "No",
-        "Lentes": "No"
+        "Lentes": "No",
+        "Acumulado": 0,
+        "Pareja": "No"
     },
     {
         "Nombre": "Paola",
         "Origen": "Mexicali",
         "Moguea": "No",
-        "Lentes": "No"
+        "Lentes": "No",
+        "Acumulado": 0,
+        "Pareja": "Si"
     },
     {
         "Nombre": "Alvaro",
         "Origen": "Mexicali",
         "Moguea": "No",
-        "Lentes": "Si"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "No"
     },
     {
         "Nombre": "Gibran",
         "Origen": "Mexicali",
         "Moguea": "No",
-        "Lentes": "No"
+        "Lentes": "No",
+        "Acumulado": 0,
+        "Pareja": "Si"
     },
     {
         "Nombre": "Brissa",
         "Origen": "Tijuana",
         "Moguea": "No",
-        "Lentes": "Si"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "Si"
     },
     {
         "Nombre": "Robin",
         "Origen": "Michoacan de ocampo",
         "Moguea": "No",
-        "Lentes": "Si"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "No"
     },
     {
         "Nombre": "Fernanda",
         "Origen": "Mexicali",
         "Moguea": "No",
-        "Lentes": "SI"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "Si"
     },
     {
         "Nombre": "Erick",
         "Origen": "Mexicali",
         "Moguea": "No",
-        "Lentes": "SI"
+        "Lentes": "Si",
+        "Acumulado": 0,
+        "Pareja": "No"
     }
 ]
