@@ -1,32 +1,62 @@
 [
     {
-        "Nombre": "Erick"
+        "Nombre": "Dario",
+        "Origen": "Mexicali",
+        "Moguea": "Si",
+        "Lentes": "Si",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Guillermo",
+        "Origen": "Michoacan de ocampo",
+        "Moguea": "No",
+        "Lentes": "No",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Abraham",
+        "Origen": "San Luis",
+        "Moguea": "No",
+        "Lentes": "No",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Paola",
+        "Origen": "Mexicali",
+        "Moguea": "No",
+        "Lentes": "No",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Alvaro",
+        "Origen": "Mexicali",
+        "Moguea": "No",
+        "Lentes": "Si",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Gibran",
+        "Origen": "Mexicali",
+        "Moguea": "No",
+        "Lentes": "No",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Brissa",
+        "Origen": "Tijuana",
+        "Moguea": "No",
+        "Lentes": "Si",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Robin",
+        "Origen": "Michoacan de ocampo",
+        "Moguea": "No",
+        "Lentes": "Si",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Fernanda",
+        "Origen": "Mexicali",
+        "Moguea": "No",
+        "Lentes": "SI",
     },
     {
-        "Nombre": "Erick"
+        "Nombre": "Erick",
+        "Origen": "Mexicali",
+        "Moguea": "No",
+        "Lentes": "SI",
     }
 ]
