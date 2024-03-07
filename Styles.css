@@ -16,21 +16,9 @@ h1 {
 
 .centrarTitulo {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: rgba(209, 211, 196, 0.642);
     border-radius: 20px;
-    padding: 20px; /* Añadimos un relleno para separar el contenido del borde */
-    margin-bottom: 20px; /* Añadimos margen inferior para el botón */
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
