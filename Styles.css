@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 90%;
+    width: 99%;
+    background-image: url(AkinatorICC.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.centrarTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(209, 211, 196, 0.642);
+    border-radius: 20px;
+}
+
