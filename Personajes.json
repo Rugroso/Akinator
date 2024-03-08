@@ -8,7 +8,11 @@
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros": "No",
-        "Otaku": "Si"
+        "Otaku": "Si",
+        "FanTaylor": "No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
     },
     {
         "Nombre": "Guillermo",
@@ -19,7 +23,11 @@
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"No",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -31,7 +39,11 @@
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"No",
-        "Otaku":"No"
+        "Otaku":"No",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -43,7 +55,11 @@
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
-        "Otaku":"No"
+        "Otaku":"No",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -55,7 +71,11 @@
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"Si",
+        "Clasista":"Si",
+        "Sigma":"No"
 
     },
     {
@@ -67,7 +87,11 @@
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -79,7 +103,11 @@
         "Pareja": "Si",
         "FanYe": "No",
         "Libros":"No",
-        "Otaku":"No"
+        "Otaku":"No",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -91,7 +119,11 @@
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"Si",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"Si"
 
     },
     {
@@ -103,7 +135,11 @@
         "Pareja": "Si",
         "FanYe": "No",
         "Libros":"Si",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
 
     },
     {
@@ -115,7 +151,11 @@
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
-        "Otaku":"Si"
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"Si",
+        "Sigma":"No"
 
     }
 ]
