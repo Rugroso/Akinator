@@ -1,6 +1,8 @@
 function logica () {
     let Pregunta1 = document.getElementById("Pregunta1").value;
     let contenido = "";
+    let preguntaRandom = parseInt(Math.random()*10);
+    console.log(preguntaRandom);
     //let Pregunta2 = document.getElementById("Pregunta2").value;
     //let Pregunta3 = document.getElementById("Pregunta3").value;
     //let Pregunta4 = document.getElementById("Pregunta4").value;
@@ -16,7 +18,7 @@ function logica () {
         });
         */
     const API_URL = "personajes.json";
-    async function leerJson() {
+    const leerJson = async() => {
     try {
         const response = await fetch(API_URL);
         const personasICC = await response.json();
