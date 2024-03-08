@@ -5,7 +5,10 @@
         "Moguea": "Si",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros": "No",
+        "Otaku": "Si"
     },
     {
         "Nombre": "Guillermo",
@@ -13,7 +16,11 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"Si"
+
     },
     {
         "Nombre": "Abraham",
@@ -21,7 +28,11 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"No"
+
     },
     {
         "Nombre": "Paola",
@@ -29,7 +40,11 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"No"
+
     },
     {
         "Nombre": "Alvaro",
@@ -37,7 +52,11 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si"
+
     },
     {
         "Nombre": "Gibran",
@@ -45,7 +64,11 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si"
+
     },
     {
         "Nombre": "Brissa",
@@ -53,7 +76,11 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"No"
+
     },
     {
         "Nombre": "Robin",
@@ -61,7 +88,11 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"Si",
+        "Otaku":"Si"
+
     },
     {
         "Nombre": "Fernanda",
@@ -69,7 +100,11 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "No",
+        "Libros":"Si",
+        "Otaku":"Si"
+
     },
     {
         "Nombre": "Erick",
@@ -77,6 +112,10 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si"
+
     }
 ]
