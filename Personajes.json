@@ -5,7 +5,14 @@
         "Moguea": "Si",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros": "No",
+        "Otaku": "Si",
+        "FanTaylor": "No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
     },
     {
         "Nombre": "Guillermo",
@@ -13,7 +20,15 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Abraham",
@@ -21,7 +36,15 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"No",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Paola",
@@ -29,7 +52,15 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"No",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Alvaro",
@@ -37,7 +68,15 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"Si",
+        "Clasista":"Si",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Gibran",
@@ -45,7 +84,15 @@
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Brissa",
@@ -53,7 +100,15 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"No",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Robin",
@@ -61,7 +116,15 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"Si",
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"Si"
+
     },
     {
         "Nombre": "Fernanda",
@@ -69,7 +132,15 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "Si"
+        "Pareja": "Si",
+        "FanYe": "No",
+        "Libros":"Si",
+        "Otaku":"Si",
+        "FanTaylor":"Si",
+        "Racista":"No",
+        "Clasista":"No",
+        "Sigma":"No"
+
     },
     {
         "Nombre": "Erick",
@@ -77,6 +148,14 @@
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
-        "Pareja": "No"
+        "Pareja": "No",
+        "FanYe": "Si",
+        "Libros":"No",
+        "Otaku":"Si",
+        "FanTaylor":"No",
+        "Racista":"No",
+        "Clasista":"Si",
+        "Sigma":"No"
+
     }
 ]
