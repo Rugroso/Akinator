@@ -12,7 +12,21 @@
         "FanTaylor": "No",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"Si",
+        "TipoPelo":"Lacio",
+        "Social":"Si",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
     },
     {
         "Nombre": "Guillermo",
@@ -27,7 +41,21 @@
         "FanTaylor":"No",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"Si",
+        "TipoPelo":"Ondulado",
+        "Social":"No",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
 
     },
     {
@@ -43,7 +71,21 @@
         "FanTaylor":"No",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"Si",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"No",
+        "TipoPelo":"Lacio",
+        "Social":"Si",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"Si",
+        "Furro":"No"
 
     },
     {
@@ -56,10 +98,24 @@
         "FanYe": "Si",
         "Libros":"No",
         "Otaku":"No",
-        "FanTaylor":"No",
+        "FanTaylor":"Si",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"Si",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"No",
+        "TipoPelo":"Ondulado",
+        "Social":"Si",
+        "Sexo":"Mujer",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"Si",
+        "Foraneo":"No",
+        "Furro":"No"
 
     },
     {
@@ -75,7 +131,21 @@
         "FanTaylor":"No",
         "Racista":"Si",
         "Clasista":"Si",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"No",
+        "Cafetero":"Si",
+        "TipoPelo":"Lacio",
+        "Social":"No",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"Si"
 
     },
     {
@@ -91,7 +161,21 @@
         "FanTaylor":"Si",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"No",
+        "TipoPelo":"Chino",
+        "Social":"No",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
 
     },
     {
@@ -107,7 +191,21 @@
         "FanTaylor":"Si",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"No",
+        "TipoPelo":"Ondulado",
+        "Social":"Si",
+        "Sexo":"Mujer",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"Si",
+        "Porrista":"No",
+        "Foraneo":"Si",
+        "Furro":"No"
 
     },
     {
@@ -123,7 +221,21 @@
         "FanTaylor":"No",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"Si"
+        "Sigma":"Si",
+        "FanLuismi":"No",
+        "Iphone":"No",
+        "Bigmama":"No",
+        "Carro":"No",
+        "Cafetero":"No",
+        "TipoPelo":"Lacio",
+        "Social":"No",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"Si",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
 
     },
     {
@@ -139,7 +251,21 @@
         "FanTaylor":"Si",
         "Racista":"No",
         "Clasista":"No",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"Si",
+        "TipoPelo":"Ondulado",
+        "Social":"No",
+        "Sexo":"Mujer",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
 
     },
     {
@@ -155,7 +281,21 @@
         "FanTaylor":"No",
         "Racista":"No",
         "Clasista":"Si",
-        "Sigma":"No"
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"Si",
+        "TipoPelo":"Ondulado",
+        "Social":"Si",
+        "Sexo":"Hombre",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"Si",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No"
 
     }
 ]
