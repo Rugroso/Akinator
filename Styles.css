@@ -20,5 +20,26 @@ h1 {
     justify-content: center;
     background: rgba(209, 211, 196, 0.642);
     border-radius: 20px;
+    border:solid;
+    border-width: 1px;
+}
+
+.centrarContenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgba(209, 211, 196, 0.642);
+    border:solid;
+    border-width: 1px;
 }
 

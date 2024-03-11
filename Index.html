@@ -10,13 +10,26 @@
     </div>
 </head>
 <body>
-    <div class="centradoOg">
+    <div class="centrarContenido">
         <div>
-            <input type="text" id="Pregunta1">
+            <select name="select" id="Pregunta1">
+                <option value="Si">Si</option>
+                <option value="Tal vez">Tal vez</option>
+                <option value="No">No</option>
+            </select>
+            <input type="text" id="Pregunta2"placeholder="2">
+            <input type="text" id="Pregunta3"placeholder="3">
+            <input type="text" id="Pregunta4"placeholder="4">
+            <input type="text" id="Pregunta5"placeholder="5">
+            <input type="text" id="Pregunta6"placeholder="6">
+            <input type="text" id="Pregunta7"placeholder="7">
+            <input type="text" id="Pregunta8"placeholder="8">
+            <input type="text" id="Pregunta9"placeholder="9">
+            <input type="text" id="Pregunta10"placeholder="10">
             <button onclick="logica()">
                 Tilines
             </button>
-            <div id="texto">
+            <div class="resultados" id="texto">
                 Aqui pasara algo
             </div>
         </div>
