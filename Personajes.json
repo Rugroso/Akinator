@@ -3,8 +3,8 @@
         "Nombre": "Dario",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "Si",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -33,15 +33,15 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"Si",
-        "Usuario Mac":"No"
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No"
     },
     {
         "Nombre": "Guillermo",
         "Mexicali":"No",
         "Tijuana":"No",
-        "Michoacan de ocampo":"Si",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"Si",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
@@ -70,16 +70,16 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"Si",
-        "Usuario Windows":"No",
-        "Usuario Mac":"Si"
+        "UsuarioWindows":"No",
+        "UsuarioMac":"Si"
 
     },
     {
         "Nombre": "Abraham",
         "Mexicali":"No",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"Si",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"Si",
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
@@ -108,16 +108,16 @@
         "Foraneo":"Si",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"No",
-        "Usuario Mac":"Si"
+        "UsuarioWindows":"No",
+        "UsuarioMac":"Si"
 
     },
     {
         "Nombre": "Paola",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
@@ -146,16 +146,16 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"No",
-        "Usuario Mac":"Si"
+        "UsuarioWindows":"No",
+        "UsuarioMac":"Si"
 
     },
     {
         "Nombre": "Alvaro",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -184,16 +184,16 @@
         "Foraneo":"No",
         "Furro":"Si",
         "Lolero":"No",
-        "Usuario Windows":"Si",
-        "Usuario Mac":"No"
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No"
 
     },
     {
         "Nombre": "Gibran",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Acumulado": 0,
@@ -222,16 +222,16 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"Si",
-        "Usuario Windows":"No",
-        "Usuario Mac":"Si"
+        "UsuarioWindows":"No",
+        "UsuarioMac":"Si"
 
     },
     {
         "Nombre": "Brissa",
         "Mexicali":"No",
         "Tijuana":"Si",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -260,16 +260,16 @@
         "Foraneo":"Si",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"Si",
-        "Usuario Mac":"No"
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No"
 
     },
     {
         "Nombre": "Robin",
         "Mexicali":"No",
         "Tijuana":"No",
-        "Michoacan de ocampo":"Si",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"Si",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -298,16 +298,16 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"Si",
-        "Usuario Windows":"Si",
-        "Usuario Mac":"No"
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No"
 
     },
     {
         "Nombre": "Fernanda",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -336,16 +336,16 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"Si",
-        "Usuario Mac":"No"
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No"
 
     },
     {
         "Nombre": "Erick",
         "Mexicali":"Si",
         "Tijuana":"No",
-        "Michoacan de ocampo":"No",
-        "San Luis":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "Si",
         "Acumulado": 0,
@@ -374,8 +374,8 @@
         "Foraneo":"No",
         "Furro":"No",
         "Lolero":"No",
-        "Usuario Windows":"No",
-        "Usuario Mac":"Si"
+        "UsuarioWindows":"No",
+        "UsuarioMac":"Si"
 
     }
 ]
