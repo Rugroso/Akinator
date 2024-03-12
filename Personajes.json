@@ -25,7 +25,8 @@
         "Ondulado":"No",
         "Chino":"No",
         "Social":"Si",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -34,7 +35,11 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"Si",
-        "UsuarioMac":"No"
+        "UsuarioMac":"No",
+        "Gorra":"Si",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No"
     },
     {
         "Nombre": "Guillermo",
@@ -62,7 +67,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"No",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -71,7 +77,12 @@
         "Furro":"No",
         "Lolero":"Si",
         "UsuarioWindows":"No",
-        "UsuarioMac":"Si"
+        "UsuarioMac":"Si",
+        "Gorra":"No",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"No"
 
     },
     {
@@ -100,7 +111,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"Si",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -109,7 +121,12 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"No",
-        "UsuarioMac":"Si"
+        "UsuarioMac":"Si",
+        "Gorra":"Si",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"Si"
 
     },
     {
@@ -138,7 +155,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"Si",
-        "Sexo":"Mujer",
+        "Hombre":"No",
+        "Mujer":"Si",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -147,7 +165,12 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"No",
-        "UsuarioMac":"Si"
+        "UsuarioMac":"Si",
+        "Gorra":"No",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"No"
 
     },
     {
@@ -171,12 +194,13 @@
         "Iphone":"Si",
         "Bigmama":"No",
         "Carro":"No",
-        "Cafetero":"Si",
+        "Cafetero":"No",
         "Lacio":"Si",
         "Ondulado":"No",
         "Chino":"No",
         "Social":"No",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -185,7 +209,12 @@
         "Furro":"Si",
         "Lolero":"No",
         "UsuarioWindows":"Si",
-        "UsuarioMac":"No"
+        "UsuarioMac":"No",
+        "Gorra":"Si",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"Si"
 
     },
     {
@@ -214,7 +243,8 @@
         "Ondulado":"No",
         "Chino":"Si",
         "Social":"No",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -223,7 +253,12 @@
         "Furro":"No",
         "Lolero":"Si",
         "UsuarioWindows":"No",
-        "UsuarioMac":"Si"
+        "UsuarioMac":"Si",
+        "Gorra":"Si",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"No"
 
     },
     {
@@ -252,7 +287,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"Si",
-        "Sexo":"Mujer",
+        "Hombre":"No",
+        "Mujer":"Si",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"Si",
@@ -261,7 +297,12 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"Si",
-        "UsuarioMac":"No"
+        "UsuarioMac":"No",
+        "Gorra":"No",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"No"
 
     },
     {
@@ -290,7 +331,8 @@
         "Ondulado":"No",
         "Chino":"No",
         "Social":"No",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"Si",
@@ -299,7 +341,12 @@
         "Furro":"No",
         "Lolero":"Si",
         "UsuarioWindows":"Si",
-        "UsuarioMac":"No"
+        "UsuarioMac":"No",
+        "Gorra":"No",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"No"
 
     },
     {
@@ -328,7 +375,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"No",
-        "Sexo":"Mujer",
+        "Hombre":"No",
+        "Mujer":"Si",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"No",
@@ -337,7 +385,12 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"Si",
-        "UsuarioMac":"No"
+        "UsuarioMac":"No",
+        "Gorra":"No",
+        "OjosCafe":"No",
+        "OjosVerde":"No",
+        "OjosAzul":"Si",
+        "Barba":"No"
 
     },
     {
@@ -366,7 +419,8 @@
         "Ondulado":"Si",
         "Chino":"No",
         "Social":"Si",
-        "Sexo":"Hombre",
+        "Hombre":"Si",
+        "Mujer":"No",
         "Real":"Si",
         "Humano":"Si",
         "Vende/VendioGalletas":"Si",
@@ -375,7 +429,13 @@
         "Furro":"No",
         "Lolero":"No",
         "UsuarioWindows":"No",
-        "UsuarioMac":"Si"
+        "UsuarioMac":"Si",
+        "Gorra":"Si",
+        "OjosCafe":"Si",
+        "OjosVerde":"No",
+        "OjosAzul":"No",
+        "Barba":"Si"
+    
 
     }
 ]
