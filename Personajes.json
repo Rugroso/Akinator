@@ -39,7 +39,10 @@
         "Gorra":"Si",
         "OjosCafe":"Si",
         "OjosVerde":"No",
-        "OjosAzul":"No"
+        "OjosAzul":"No",
+        "Barba":"No",
+        "TezClara":"No",
+        "TezOscura":"Si"
     },
     {
         "Nombre": "Guillermo",
@@ -82,7 +85,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"Si",
+        "TezOscura":"No"
 
     },
     {
@@ -126,7 +131,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"Si"
+        "Barba":"Si",
+        "TezClara":"Si",
+        "TezOscura":"No"
 
     },
     {
@@ -170,7 +177,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"No",
+        "TezOscura":"Si"
 
     },
     {
@@ -214,7 +223,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"Si"
+        "Barba":"Si",
+        "TezClara":"Si",
+        "TezOscura":"No"
 
     },
     {
@@ -258,7 +269,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"No",
+        "TezOscura":"Si"
 
     },
     {
@@ -302,7 +315,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"Si",
+        "TezOscura":"No"
 
     },
     {
@@ -346,7 +361,9 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"No",
+        "TezOscura":"Si"
 
     },
     {
@@ -390,7 +407,9 @@
         "OjosCafe":"No",
         "OjosVerde":"No",
         "OjosAzul":"Si",
-        "Barba":"No"
+        "Barba":"No",
+        "TezClara":"Si",
+        "TezOscura":"No"
 
     },
     {
@@ -412,7 +431,7 @@
         "Sigma":"No",
         "FanLuismi":"No",
         "Iphone":"Si",
-        "Bigmama":"No",
+        "Bigmama":"Si",
         "Carro":"Si",
         "Cafetero":"Si",
         "Lacio":"No",
@@ -434,8 +453,8 @@
         "OjosCafe":"Si",
         "OjosVerde":"No",
         "OjosAzul":"No",
-        "Barba":"Si"
-    
-
+        "Barba":"Si",
+        "TezClara":"No",
+        "TezOscura":"Si"
     }
 ]
