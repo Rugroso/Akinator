@@ -3,6 +3,7 @@ let sino = "";
 let talvez=0;
 let cont=0;
 let tilines = [];
+let contenido="";
 
 async function leerJson() {
     try {
@@ -21,17 +22,16 @@ function buttonSi() {
 }
 
 function buttonNo() {
-    sino=false;
     sino="No";
     logica();
 }
 
 function buttonTalvez() {
     if (talvez%2===0) {
-        sino=="Si";
+        sino="Si";
     }
     else {
-        sino=="No";
+        sino="No";
     }
     talvez++;
     logica();
@@ -39,7 +39,7 @@ function buttonTalvez() {
 
 
 function cargar() {
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 5; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     document.getElementById("Si").style.display = 'none';
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciar() {
-    let numRandom = 1 + parseInt(Math.random()*2);
+    let numRandom = 1 + parseInt(Math.random()*5);
     arreglo[0]=numRandom;
     document.getElementById(`Pregunta${numRandom}`).style.display = 'block';
     document.getElementById("Si").style.display = 'block';
@@ -63,19 +63,30 @@ function iniciar() {
     document.getElementById(`Bienvenida`).style.display = 'none';
 }
 
+function finalizar() {
+    document.getElementById(`Texto`).style.display = 'block';
+    document.getElementById("Si").style.display = 'none';
+    document.getElementById("No").style.display = 'none';
+    document.getElementById("Talvez").style.display = 'none';
+    for (let i = 1; i <= 5; i++) {
+        document.getElementById(`Pregunta${i}`).style.display = 'none';
+    }
+    document.getElementById('Texto').innerHTML = contenido;
+}
+
 function logica () {
-    let contenido = "";
-    if (arreglo.length<3) {
-        for (let i = 1; i <= 2; i++) {
+    contenido = "";
+    if (arreglo.length<5) {
+        for (let i = 1; i <= 5; i++) {
             document.getElementById(`Pregunta${i}`).style.display = 'none';
         }
         let numRandom = 0;
         let vf = true;
         let encontrar = false;
-        if (arreglo.length<2) {
+        if (arreglo.length<5) {
             while (vf===true) {
                 encontrar=false;
-                numRandom = 1 + parseInt(Math.random()*2);
+                numRandom = 1 + parseInt(Math.random()*5);
                 console.log(`Se genero este numero: ${numRandom}`);
                 for (let recorrer of arreglo) {
                     if (recorrer===numRandom) {
@@ -91,6 +102,13 @@ function logica () {
             let preguntaRandom = `Pregunta${numRandom}`;
             document.getElementById(preguntaRandom).style.display = 'block';
         }
+        console.log(`Valor dentro del arreglo: ${arreglo[cont]}`);
+        
+        if (arreglo[cont]===5 && sino==="Si") {
+            contenido="Dario";
+            finalizar();
+            return;
+        }
 
         const analizarPersonajes = (personajesICC) => {
             personajesICC.forEach(tilin => {
@@ -103,19 +121,14 @@ function logica () {
             });
 
             personajesICC.forEach(tilin => {
-                if (tilin.Acumulado == 2) {
+                if (tilin.Acumulado == 4) {
                     console.log(tilin.Nombre)
                     contenido += `${tilin.Nombre}<br>`;
-                    document.getElementById(`Texto`).style.display = 'block';
-                    document.getElementById("Si").style.display = 'none';
-                    document.getElementById("No").style.display = 'none';
-                    document.getElementById("Talvez").style.display = 'none';
+                    finalizar();
               }
             });
-
-            document.getElementById('Texto').innerHTML = contenido;
             cont++;
         }
         analizarPersonajes(tilines);
     }
-    };
+};
