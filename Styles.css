@@ -1,3 +1,11 @@
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 36px; /* Tamaño de fuente más grande */
+    color: white; /* Color blanco */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra de texto para resaltar */
+}
 html {
     height: 100%;
     width: 100%;
@@ -6,8 +14,11 @@ html {
 body {
     height: 90%;
     width: 99%;
-    background-image: url(AkinatorICC.png);
+    background-image: url(Desert.jpg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -20,16 +31,31 @@ h1 {
     justify-content: center;
     background: rgba(209, 211, 196, 0.642);
     border-radius: 20px;
-    border:solid;
-    border-width: 1px;
 }
 
-.centrarContenido {
+.preguntas {
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    height: 100%;
+    flex-direction: column;
+}
+
+.preguntas button {
+    margin: 5px; 
+    padding: 10px 20px; 
+}
+
+.centradoOg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .resultados {
@@ -39,7 +65,24 @@ h1 {
     flex-direction: column;
     border-radius: 20px;
     background: rgba(209, 211, 196, 0.642);
-    border:solid;
+    border: solid;
     border-width: 1px;
 }
+#akinator-container {
+    position: fixed;
+    left: 20px;
+    animation: floatAnimation 3s infinite ease-in-out;
+   
+}
 
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

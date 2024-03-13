@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akinator ICC Edition</title>
     <link rel="stylesheet" href="Styles.css">
-    <div class="centrarTitulo">
-        <h1>Akinator ICC Edition</h1>
-    </div>
 </head>
-<body>
-    <div class="centrarContenido">
-        <div>
-            <select name="select" id="Pregunta1">
-                <option value="Si">Si</option>
-                <option value="Tal vez">Tal vez</option>
-                <option value="No">No</option>
-            </select>
-            <input type="text" id="Pregunta2"placeholder="2">
-            <input type="text" id="Pregunta3"placeholder="3">
-            <input type="text" id="Pregunta4"placeholder="4">
-            <input type="text" id="Pregunta5"placeholder="5">
-            <input type="text" id="Pregunta6"placeholder="6">
-            <input type="text" id="Pregunta7"placeholder="7">
-            <input type="text" id="Pregunta8"placeholder="8">
-            <input type="text" id="Pregunta9"placeholder="9">
-            <input type="text" id="Pregunta10"placeholder="10">
-            <button onclick="logica()">
-                Tilines
-            </button>
-            <div class="resultados" id="texto">
-                Aqui pasara algo
+<body onload="cargar()">
+
+
+    <div id="akinator-container">
+        <img src="ala.png" alt="Akinator ICC">
+    </div>
+
+<div class="centradoOg">
+    <h2 class="titulo">Akinator ICC Edition</h2>
+        <div class="preguntas">
+            <div id="Bienvenida">
+                <h2>Bienvenido al Akinator de tilines</h2>
+                <button onclick="iniciar()">Da clic aqui para comenzar</button>
             </div>
+            <div id="preguntaTitulo"> <p style="font-weight: bold; font-family:'Lucida Sans'">Pregunta:</p> </div>
+            <div>
+                <h2 id="Pregunta1"> ¿Tu personaje es de Mexicali?</h2>
+            </div>
+            <div>
+                <h2 id="Pregunta2"> ¿Tu personaje es de Tijuana?</h2>
+            </div>
+            <button id="Si" name="respuesta" type="button" style="font-size: 26px;" onclick="buttonSi()">Sí</button>
+            <button id="No" name="respuesta" type="button" style="font-size: 26px;" onclick="buttonNo()">No</button>
+            <button id="Talvez" name="respuesta" type="button" style="font-size: 26px;" onclick="buttonTalvez()">Tal Vez</button>
+            <div id="Texto"> </div>
         </div>
     </div>
+
 </body>
-<script src="Script.js"></script>
+    <script src="Script.js"></script>
 </html>
