@@ -173,7 +173,7 @@ function logica () {
         }
         analizarPersonajes(tilines);
         if (arreglo.length==42) {
-            contenido="Chicos, están bien pendejos, soy el Mauñilio"
+            contenido="No diste con ninguno, no le mueves"
             finalizar();
         }
     }
