@@ -8,7 +8,6 @@
         "Guadalajara":"No",
         "Moguea": "Si",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros": "No",
@@ -43,7 +42,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Guillermo",
@@ -54,7 +54,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"No",
@@ -89,8 +88,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"Si",
-        "TezOscura":"No"
-
+        "TezOscura":"No",
+        "Acumulado": 0
     },
     {
         "Nombre": "Abraham",
@@ -101,7 +100,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"No",
@@ -136,7 +134,8 @@
         "OjosAzul":"No",
         "Barba":"Si",
         "TezClara":"Si",
-        "TezOscura":"No"
+        "TezOscura":"No",
+        "Acumulado": 0
 
     },
     {
@@ -148,7 +147,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
@@ -183,8 +181,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
-
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Alvaro",
@@ -195,7 +193,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
@@ -230,8 +227,8 @@
         "OjosAzul":"No",
         "Barba":"Si",
         "TezClara":"Si",
-        "TezOscura":"No"
-
+        "TezOscura":"No",
+        "Acumulado": 0
     },
     {
         "Nombre": "Gibran",
@@ -242,7 +239,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
@@ -277,8 +273,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
-
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Brissa",
@@ -289,7 +285,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "No",
         "Libros":"No",
@@ -324,8 +319,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"Si",
-        "TezOscura":"No"
-
+        "TezOscura":"No",
+        "Acumulado": 0
     },
     {
         "Nombre": "Robin",
@@ -336,7 +331,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"Si",
@@ -371,8 +365,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
-
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Fernanda",
@@ -383,7 +377,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "No",
         "Libros":"Si",
@@ -418,8 +411,8 @@
         "OjosAzul":"Si",
         "Barba":"No",
         "TezClara":"Si",
-        "TezOscura":"No"
-
+        "TezOscura":"No",
+        "Acumulado": 0
     },
     {
         "Nombre": "Erick",
@@ -430,7 +423,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "Si",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
@@ -465,7 +457,8 @@
         "OjosAzul":"No",
         "Barba":"Si",
         "TezClara":"No",
-        "TezOscura":"Si"
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Acero",
@@ -476,7 +469,6 @@
         "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
@@ -511,7 +503,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Josue",
@@ -522,7 +515,6 @@
         "Guadalajara":"Si",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
@@ -557,7 +549,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Jorge",
@@ -567,7 +560,6 @@
         "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "No",
         "Libros":"Si",
@@ -602,7 +594,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"No",
-        "TezOscura":"Si"
+        "TezOscura":"Si",
+        "Acumulado": 0
     },
     {
         "Nombre": "Hector",
@@ -612,7 +605,6 @@
         "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "No",
         "FanYe": "Si",
         "Libros":"No",
@@ -647,7 +639,8 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"Si",
-        "TezOscura":"No"
+        "TezOscura":"No",
+        "Acumulado": 0
     },
     {
         "Nombre": "Oscar",
@@ -657,7 +650,6 @@
         "SanLuis":"No",
         "Moguea": "No",
         "Lentes": "No",
-        "Acumulado": 0,
         "Pareja": "Si",
         "FanYe": "Si",
         "Libros":"No",
@@ -692,6 +684,7 @@
         "OjosAzul":"No",
         "Barba":"No",
         "TezClara":"Si",
-        "TezOscura":"No"
+        "TezOscura":"No",
+        "Acumulado": 0
     }
 ]

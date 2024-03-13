@@ -39,7 +39,7 @@ function buttonTalvez() {
 
 
 function cargar() {
-    for (let i = 1; i <=41; i++) {
+    for (let i = 1; i <=42; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     document.getElementById("Si").style.display = 'none';
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciar() {
-    let numRandom = 1 + parseInt(Math.random()*41);
+    let numRandom = 1 + parseInt(Math.random()*42);
     arreglo[0]=numRandom;
     document.getElementById(`Pregunta${numRandom}`).style.display = 'block';
     document.getElementById("Si").style.display = 'block';
@@ -68,7 +68,7 @@ function finalizar() {
     document.getElementById("Si").style.display = 'none';
     document.getElementById("No").style.display = 'none';
     document.getElementById("Talvez").style.display = 'none';
-    for (let i = 1; i <= 41; i++) {
+    for (let i = 1; i <= 42; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     document.getElementById('Texto').innerHTML = contenido;
@@ -76,17 +76,17 @@ function finalizar() {
 
 function logica () {
     contenido = "";
-    if (arreglo.length<=41) {
-        for (let i = 1; i <=41; i++) {
+    if (arreglo.length<=42) {
+        for (let i = 1; i <=42; i++) {
             document.getElementById(`Pregunta${i}`).style.display = 'none';
         }
         let numRandom = 0;
         let vf = true;
         let encontrar = false;
-        if (arreglo.length<41) {
+        if (arreglo.length<42) {
             while (vf===true) {
                 encontrar=false;
-                numRandom = 1 + parseInt(Math.random()*41);
+                numRandom = 1 + parseInt(Math.random()*42);
                 console.log(`Se genero este numero: ${numRandom}`);
                 for (let recorrer of arreglo) {
                     if (recorrer===numRandom) {
@@ -104,8 +104,14 @@ function logica () {
         }
         console.log(`Valor dentro del arreglo: ${arreglo[cont]}`);
         
-        if (arreglo[cont]===5 && sino==="Si") {
+        if (arreglo[cont]===6 && sino==="Si") {
             contenido="Darío";
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===15 && sino==="Si") {
+            contenido="Robin";
             finalizar();
             return;
         }
@@ -122,8 +128,26 @@ function logica () {
             return;
         }
 
-        if (arreglo[cont]===17 && sino==="Si") {
+        if (arreglo[cont]===18 && sino==="Si") {
             contenido="Erick";
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===32 && sino==="Si") {
+            contenido="Alvaro";
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===5 && sino==="Si") {
+            contenido="Josue";
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===30 && sino==="Si") {
+            contenido="Paola";
             finalizar();
             return;
         }
@@ -139,7 +163,7 @@ function logica () {
             });
 
             personajesICC.forEach(tilin => {
-                if (tilin.Acumulado == 35) {
+                if (tilin.Acumulado == 34) {
                     console.log(tilin.Nombre)
                     contenido += `${tilin.Nombre}<br>`;
                     finalizar();
@@ -148,5 +172,9 @@ function logica () {
             cont++;
         }
         analizarPersonajes(tilines);
+        if (arreglo.length==42) {
+            contenido="Chicos, están bien pendejos, soy el Mauñilio"
+            finalizar();
+        }
     }
 };
