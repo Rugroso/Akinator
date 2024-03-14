@@ -1,10 +1,11 @@
 .titulo {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
     font-family: 'Arial', sans-serif;
-    font-size: 36px; 
+    font-size: 3vw; 
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    width: 20vw;
 }
 html {
     height: 100%;
@@ -30,17 +31,17 @@ h1 {
     align-items: center;
     justify-content: center;
     background: rgba(209, 211, 196, 0.642);
-    border-radius: 20px;
+    border-radius: 10vw;
 }
 
 .preguntas {
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: center;
-    width: 400px;
-    padding: 20px;
-    margin: 20px auto;
+    width: 30vw;
+    padding: 2.5vw;
+    margin: 1vw auto;
     background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 10px;
+    border-radius: 2vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   
     display: flex;
@@ -48,14 +49,15 @@ h1 {
 }
 
 .preguntas button {
-    margin: 5px; 
-    padding: 10px 20px; 
+    margin: 1vw; 
+    padding: 1vw 2vw;
 }
 
 .centradoOg {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    width: 100vw;
 }
 
 .resultados {
@@ -63,15 +65,19 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 2vw;
     background: rgba(209, 211, 196, 0.642);
     border: solid;
-    border-width: 1px;
+    border-width: 1vw;
 }
-#akinator-container {
+
+#akinator-container img {
     position: fixed;
-    left: 20px;
+    left: -3vw;
+    top: -7vw;
     animation: floatAnimation 3s infinite ease-in-out;
+    width: 40vw;
+    z-index: 100;
    
 }
 
@@ -86,3 +92,4 @@ h1 {
         transform: translateY(0);
     }
 }
+
