@@ -350,49 +350,82 @@ function logica () {
         console.log(`Valor dentro del arreglo: ${arreglo[cont]}`);
         
         if (arreglo[cont]===6 && sino==="Si") {
-            contenido="Darío";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Dario${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Dario <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===15 && sino==="Si") {
-            contenido="Robin";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Robin${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Robin <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===2 && sino==="Si") {
-            contenido="Brissa";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Brissa${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Brissa <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===4 && sino==="Si") {
-            contenido="Abraham";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Abraham${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Abraham <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===18 && sino==="Si") {
-            contenido="Erick";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Erick${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Erick <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===32 && sino==="Si") {
-            contenido="Alvaro";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Alvaro${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Alvaro <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===5 && sino==="Si") {
-            contenido="Josue";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Josue${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Josue <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
 
         if (arreglo[cont]===30 && sino==="Si") {
-            contenido="Paola";
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Paola${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Paola <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===39 && sino==="Si") {
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Fernanda${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Fernanda <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
@@ -402,7 +435,7 @@ function logica () {
                 Object.keys(tilin).forEach((propiedad, pos) => {
                     if (tilin[propiedad] === sino && pos === arreglo[cont]) {
                         tilin.Acumulado++;
-                        console.log(tilin.Acumulado);
+                        console.log(tilin.Nombre);
                     }
                 });
             });
@@ -410,7 +443,9 @@ function logica () {
             personajesICC.forEach(tilin => {
                 if (tilin.Acumulado == 32) {
                     console.log(tilin.Nombre)
-                    contenido += `${tilin.Nombre}<br>`;
+                    let imagenNum = 1 + parseInt(Math.random()*2);
+                    let imagen= `${tilin.Nombre}${imagenNum}.jpg`
+                    contenido+=`${tilin.Nombre} <br> ${imagen}<br>`;
                     finalizar();
               }
             });
@@ -435,7 +470,10 @@ function logica () {
                 if (tilin.Acumulado==max) {
                     console.log(tilin.Acumulado);
                     console.log(tilin.Nombre);
-                    contenido+=`${tilin.Nombre}<br>`;
+                    let imagenNum = 1 + parseInt(Math.random()*2);
+                    let imagen= `imagenes/${tilin.Nombre}${imagenNum}.jpg`
+                    console.log(imagen);
+                    contenido+=`<h4> Tu personaje es: <br>${tilin.Nombre} <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
                 }
             });
 
