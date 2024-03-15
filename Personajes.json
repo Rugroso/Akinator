@@ -54,6 +54,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -111,6 +113,8 @@
         "CabelloMedio":"No",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -168,6 +172,8 @@
         "CabelloMedio":"No",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"Si",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
 
     },
@@ -226,6 +232,8 @@
         "CabelloMedio":"No",
         "CabelloLargo":"Si",
         "ExcelentesCalificaciones":"Si",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -283,6 +291,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -340,6 +350,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"Si",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -397,6 +409,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -454,6 +468,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"Si",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -511,6 +527,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -568,6 +586,8 @@
         "CabelloMedio":"No",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -625,6 +645,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -682,6 +704,8 @@
         "CabelloMedio":"No",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -740,6 +764,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"Si",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -797,6 +823,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -854,6 +882,8 @@
         "CabelloMedio":"Si",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
         "Acumulado": 0
     },
     {
@@ -911,6 +941,67 @@
         "CabelloMedio":"No",
         "CabelloLargo":"No",
         "ExcelentesCalificaciones":"No",
+        "Tartamudea":"No",
+        "PareceAleman":"No",
+        "Acumulado": 0
+    },
+    {
+        "Nombre": "Cesar",
+        "Mexicali":"Si",
+        "Tijuana":"No",
+        "MichoacanDeOcampo":"No",
+        "SanLuis":"No",
+        "Guadalajara":"No",
+        "Moguea": "No",
+        "Lentes": "No",
+        "Pareja": "No",
+        "FanYe": "No",
+        "Libros":"No",
+        "Otaku":"No",
+        "FanTaylor":"No",
+        "Racista":"Si",
+        "Clasista":"Si",
+        "Sigma":"No",
+        "FanLuismi":"No",
+        "Iphone":"Si",
+        "Bigmama":"No",
+        "Carro":"Si",
+        "Cafetero":"No",
+        "Lacio":"Si",
+        "Ondulado":"No",
+        "Chino":"No",
+        "Social":"No",
+        "Hombre":"Si",
+        "Mujer":"No",
+        "Real":"Si",
+        "Humano":"Si",
+        "Vende/VendioGalletas":"No",
+        "Porrista":"No",
+        "Foraneo":"No",
+        "Furro":"No",
+        "Lolero":"No",
+        "UsuarioWindows":"Si",
+        "UsuarioMac":"No",
+        "Gorra":"Si",
+        "OjosCafe":"No",
+        "OjosVerde":"No",
+        "OjosAzul":"Si",
+        "Barba":"No",
+        "TezClara":"Si",
+        "TezOscura":"No",
+        "Apuesta":"Si",
+        "SabeFutbol":"Si",
+        "Palworld":"No",
+        "JugarFutbol":"Si",
+        "JuegaFortnite":"No",
+        "SmashEnSalon":"No",
+        "ApellidoMetal":"No",
+        "CabelloCorto":"Si",
+        "CabelloMedio":"No",
+        "CabelloLargo":"No",
+        "ExcelentesCalificaciones":"No",
+        "Tartamudea":"Si",
+        "PareceAleman":"Si",
         "Acumulado": 0
     }
 ]

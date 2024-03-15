@@ -39,6 +39,8 @@
 ¿Tu personaje tiene el cabello medio?
 ¿Tu personaje tiene el cabello largo?
 ¿Tu personaje tiene excelentes calificaciones?
+¿Tu personaje tartamudea al hablar?
+¿Tu personaje parece aleman?
 
 
 
