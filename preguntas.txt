@@ -28,6 +28,22 @@
 ¿Tu personaje es porrista?
 ¿Tu personaje es foráneo?
 ¿Tu personaje es furro?
+¿Tu personaje suele apostar?
+¿Tu personaje sabe de futbol?
+¿Tu personaje juega palworld?
+¿Tu personaje juega o jugaba futbol?
+¿Tu personaje juega Fornite?
+¿Tu personaje suele jugar smash en el salón?
+¿El apellido de tu personaje esta relacionado con algun tipo de metal?
+¿Tu personaje tiene el cabello corto?
+¿Tu personaje tiene el cabello medio?
+¿Tu personaje tiene el cabello largo?
+¿Tu personaje tiene excelentes calificaciones?
+
+
+
+
+
 
 
 
