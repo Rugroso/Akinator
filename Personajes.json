@@ -553,11 +553,13 @@
         "Acumulado": 0
     },
     {
+        
         "Nombre": "Jorge",
         "Mexicali":"Si",
         "Tijuana":"No",
         "MichoacanDeOcampo":"No",
         "SanLuis":"No",
+        "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Pareja": "No",
@@ -603,6 +605,7 @@
         "Tijuana":"No",
         "MichoacanDeOcampo":"No",
         "SanLuis":"No",
+        "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Pareja": "No",
@@ -648,6 +651,7 @@
         "Tijuana":"No",
         "MichoacanDeOcampo":"No",
         "SanLuis":"No",
+        "Guadalajara":"No",
         "Moguea": "No",
         "Lentes": "No",
         "Pareja": "Si",

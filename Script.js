@@ -402,7 +402,7 @@ function logica () {
                 Object.keys(tilin).forEach((propiedad, pos) => {
                     if (tilin[propiedad] === sino && pos === arreglo[cont]) {
                         tilin.Acumulado++;
-                        console.log(tilin.Acumulado);
+                        console.log(tilin.Nombre);
                     }
                 });
             });
