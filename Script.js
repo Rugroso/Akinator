@@ -6,6 +6,8 @@ let tilines = [];
 let contenido="";
 let numRandom=0;
 let preguntaRandom="";
+let mog = new Audio('Mog.mp3');
+let mogBool = false;
 
 async function leerJson() {
     try {
@@ -43,7 +45,7 @@ function buttonTalvez() {
 
 
 function cargar() {
-    for (let i = 1; i <=42; i++) {
+    for (let i = 1; i <=53; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     document.getElementById("Si").style.display = 'none';
@@ -58,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciar() {
-    numRandom = 1 + parseInt(Math.random()*42);
+    numRandom = 1 + parseInt(Math.random()*53);
     arreglo[0]=numRandom;
     document.getElementById(`Pregunta${numRandom}`).style.display = 'block';
     document.getElementById("Si").style.display = 'block';
@@ -72,19 +74,27 @@ function finalizar() {
     document.getElementById("Si").style.display = 'none';
     document.getElementById("No").style.display = 'none';
     document.getElementById("Talvez").style.display = 'none';
-    for (let i = 1; i <= 42; i++) {
+    for (let i = 1; i <= 53; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
-    document.getElementById('Texto').innerHTML = contenido;
+    if (mogBool) {
+        setTimeout(() => {
+            document.getElementById('Texto').innerHTML = contenido;
+            return;
+        }, 17500);
+    }
+    else {
+        document.getElementById('Texto').innerHTML = contenido;
+    }
 }
 
 function generarRandom() {
     let vf = true;
     let encontrar = false;
-    if (arreglo.length<42) {
+    if (arreglo.length<53) {
         while (vf===true) {
             encontrar=false;
-            numRandom = 1 + parseInt(Math.random()*42);
+            numRandom = 1 + parseInt(Math.random()*53);
             console.log(`Se genero este numero: ${numRandom}`);
             for (let recorrer of arreglo) {
                 if (recorrer===numRandom) {
@@ -108,7 +118,7 @@ function logica () {
 
     if (arreglo[cont]===41 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [42];
+        let arregloaux = [53];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -124,7 +134,7 @@ function logica () {
         contPreguntasParecidas=1;
     }
 
-    if (arreglo[cont]===42 && sino==="Si") {
+    if (arreglo[cont]===53 && sino==="Si") {
         let valoraux=arreglo[cont];
         let arregloaux = [41];
         arregloaux.forEach(elemento => {
@@ -341,8 +351,8 @@ function logica () {
         contPreguntasParecidas=23;
     }
 
-    if (arreglo.length<=42) {
-        for (let i = 1; i <=42; i++) {
+    if (arreglo.length<=53) {
+        for (let i = 1; i <=53; i++) {
             document.getElementById(`Pregunta${i}`).style.display = 'none';
         }
         numRandom = 0;
@@ -354,6 +364,8 @@ function logica () {
             let imagen= `imagenes/Dario${imagenNum}.jpg`
             console.log(imagen);
             contenido=`<h4> Tu personaje es: <br> Dario <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            mog.play();
+            mogBool = true;
             finalizar();
             return;
         }
@@ -430,6 +442,24 @@ function logica () {
             return;
         }
 
+        if (arreglo[cont]===49 && sino==="Si") {
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Acero${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Acero <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===45 && sino==="Si") {
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Oscar${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Oscar <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            finalizar();
+            return;
+        }
+
         const analizarPersonajes = (personajesICC) => {
             personajesICC.forEach(tilin => {
                 Object.keys(tilin).forEach((propiedad, pos) => {
@@ -459,7 +489,7 @@ function logica () {
 
         analizarPersonajes(tilines);
         let max=0;
-        if (arreglo.length>=42) {
+        if (arreglo.length>=53) {
             tilines.forEach(tilin => {
                 if (tilin.Acumulado>=max) {
                     max=tilin.Acumulado;
