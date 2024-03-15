@@ -593,8 +593,8 @@
         "OjosVerde":"No",
         "OjosAzul":"No",
         "Barba":"No",
-        "TezClara":"No",
-        "TezOscura":"Si",
+        "TezClara":"Si",
+        "TezOscura":"No",
         "Acumulado": 0
     },
     {

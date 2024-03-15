@@ -4,6 +4,8 @@ let talvez=0;
 let cont=0;
 let tilines = [];
 let contenido="";
+let numRandom=0;
+let preguntaRandom="";
 
 async function leerJson() {
     try {
@@ -22,16 +24,18 @@ function buttonSi() {
 }
 
 function buttonNo() {
-    sino="No";
+    sino="";
     logica();
 }
 
 function buttonTalvez() {
-    if (talvez%2===0) {
+    let numRandomButton = 0;
+    numRandomButton =  1 + parseInt(Math.random()*2);
+    if (numRandomButton===1) {
         sino="Si";
     }
     else {
-        sino="No";
+        sino="";
     }
     talvez++;
     logica();
@@ -54,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciar() {
-    let numRandom = 1 + parseInt(Math.random()*42);
+    numRandom = 1 + parseInt(Math.random()*42);
     arreglo[0]=numRandom;
     document.getElementById(`Pregunta${numRandom}`).style.display = 'block';
     document.getElementById("Si").style.display = 'block';
@@ -74,34 +78,275 @@ function finalizar() {
     document.getElementById('Texto').innerHTML = contenido;
 }
 
+function generarRandom() {
+    let vf = true;
+    let encontrar = false;
+    if (arreglo.length<42) {
+        while (vf===true) {
+            encontrar=false;
+            numRandom = 1 + parseInt(Math.random()*42);
+            console.log(`Se genero este numero: ${numRandom}`);
+            for (let recorrer of arreglo) {
+                if (recorrer===numRandom) {
+                    encontrar = true;
+                }
+            } 
+            if (encontrar===false) {
+                arreglo.push(numRandom);
+                console.log(`Tamaño del arreglo: ${arreglo.length-1}`);
+                break;
+            }
+        }
+        preguntaRandom = `Pregunta${numRandom}`;
+        document.getElementById(preguntaRandom).style.display = 'block';
+    }
+}
+
 function logica () {
+    let contPreguntasParecidas=0;
     contenido = "";
+
+    if (arreglo[cont]===41 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [42];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=1;
+    }
+
+    if (arreglo[cont]===42 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [41];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=1;
+    }
+
+    if (arreglo[cont]===31 && sino==="Si") {
+        console.log("Se ha realizado esta pregunta");
+        let valoraux=arreglo[cont];
+        let arregloaux = [1, 32, 6, 9, 10, 15, 18, 30, 33, 38, 39, 3];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=12;
+    }
+    
+    if (arreglo[cont]===37 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [38, 39];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===38 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [37, 39];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===39 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [37, 38];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===21 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [22, 23];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===22 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [21, 23];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===23 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [21, 22];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=2;
+    }
+
+    if (arreglo[cont]===25 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [26, 2, 30, 39];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=4;
+    }
+
+    if (arreglo[cont]===26 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [25, 3, 4, 5, 6, 15, 18, 20, 23, 32, 33, 36, 38, 40];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=14;
+    }
+
+    if (arreglo[cont]===1 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [2, 3, 4, 5];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=4;
+    }
+
+    if (arreglo[cont]===3 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [1, 2, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 23, 24, 26, 29, 30, 31, 32, 36, 38, 39, 40];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=23;
+    }
+
     if (arreglo.length<=42) {
         for (let i = 1; i <=42; i++) {
             document.getElementById(`Pregunta${i}`).style.display = 'none';
         }
-        let numRandom = 0;
-        let vf = true;
-        let encontrar = false;
-        if (arreglo.length<42) {
-            while (vf===true) {
-                encontrar=false;
-                numRandom = 1 + parseInt(Math.random()*42);
-                console.log(`Se genero este numero: ${numRandom}`);
-                for (let recorrer of arreglo) {
-                    if (recorrer===numRandom) {
-                        encontrar = true;
-                    }
-                } 
-                if (encontrar===false) {
-                    arreglo.push(numRandom);
-                    console.log(`Tamaño del arreglo: ${arreglo.length-1}`);
-                    break;
-                }
-            }
-            let preguntaRandom = `Pregunta${numRandom}`;
-            document.getElementById(preguntaRandom).style.display = 'block';
-        }
+        numRandom = 0;
+        generarRandom();
         console.log(`Valor dentro del arreglo: ${arreglo[cont]}`);
         
         if (arreglo[cont]===6 && sino==="Si") {
@@ -163,18 +408,40 @@ function logica () {
             });
 
             personajesICC.forEach(tilin => {
-                if (tilin.Acumulado == 34) {
+                if (tilin.Acumulado == 32) {
                     console.log(tilin.Nombre)
                     contenido += `${tilin.Nombre}<br>`;
                     finalizar();
               }
             });
-            cont++;
+
+            cont = cont + contPreguntasParecidas + 1;
+            console.log(`Valor de cont ${cont}`)
+            arreglo.forEach(recorrer => {
+                console.log(`Valores del arreglo: ${recorrer}`)
+            })
         }
+
         analizarPersonajes(tilines);
-        if (arreglo.length==42) {
-            contenido="No diste con ninguno, no le mueves"
+        let max=0;
+        if (arreglo.length>=42) {
+            tilines.forEach(tilin => {
+                if (tilin.Acumulado>=max) {
+                    max=tilin.Acumulado;
+                }
+            });
+
+            tilines.forEach(tilin => {
+                if (tilin.Acumulado==max) {
+                    console.log(tilin.Acumulado);
+                    console.log(tilin.Nombre);
+                    contenido+=`${tilin.Nombre}<br>`;
+                }
+            });
+
             finalizar();
         }
+        numRandom=0;
+        preguntaRandom="";
     }
 };
