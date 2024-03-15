@@ -464,7 +464,7 @@ function logica () {
             return;
         }
 
-        if (arreglo[cont]===30 && sino==="Si" || arreglo[cont]===52 && sino==="Si") {
+        if (arreglo[cont]===30 && sino==="Si") {
             let imagenNum = 1 + parseInt(Math.random()*2);
             let imagen= `imagenes/Paola${imagenNum}.jpg`
             console.log(imagen);
