@@ -112,6 +112,10 @@ function generarRandom() {
     }
 }
 
+const filtrado = (arregloaux, valoraux) => {
+    //En construcción...
+}
+
 function logica () {
     let contPreguntasParecidas=0;
     contenido = "";
@@ -155,7 +159,7 @@ function logica () {
     if (arreglo[cont]===31 && sino==="Si") {
         console.log("Se ha realizado esta pregunta");
         let valoraux=arreglo[cont];
-        let arregloaux = [1, 32, 6, 9, 10, 15, 18, 30, 33, 38, 39, 3];
+        let arregloaux = [1, 32, 6, 9, 10, 15, 18, 30, 33, 38, 39, 3, 43, 44, 45, 46, 47, 49, 52];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -281,7 +285,7 @@ function logica () {
 
     if (arreglo[cont]===25 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [26, 2, 30, 39];
+        let arregloaux = [26, 2, 30, 39, 52];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -294,12 +298,12 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=4;
+        contPreguntasParecidas=5;
     }
 
     if (arreglo[cont]===26 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [25, 3, 4, 5, 6, 15, 18, 20, 23, 32, 33, 36, 38, 40];
+        let arregloaux = [25, 3, 4, 5, 6, 15, 18, 20, 23, 32, 33, 36, 38, 40, 43, 44, 45, 46, 47, 48, 49, 50];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -312,7 +316,7 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=14;
+        contPreguntasParecidas=22;
     }
 
     if (arreglo[cont]===1 && sino==="Si") {
@@ -349,6 +353,42 @@ function logica () {
             }
         });
         contPreguntasParecidas=23;
+    }
+
+    if (arreglo[cont]===34 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [35];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=1;
+    }
+
+    if (arreglo[cont]===35 && sino==="Si") {
+        let valoraux=arreglo[cont];
+        let arregloaux = [34];
+        arregloaux.forEach(elemento => {
+            let indice = arreglo.indexOf(elemento);
+            if (indice !== -1) {
+              arreglo.splice(indice, 1);
+            }
+          });
+        arreglo.push(...arregloaux);
+        arreglo.forEach((recorrer, indice) => {
+            if (recorrer===valoraux) {
+                cont=indice;
+            }
+        });
+        contPreguntasParecidas=1;
     }
 
     if (arreglo.length<=53) {
@@ -424,7 +464,7 @@ function logica () {
             return;
         }
 
-        if (arreglo[cont]===30 && sino==="Si") {
+        if (arreglo[cont]===30 && sino==="Si" || arreglo[cont]===52 && sino==="Si") {
             let imagenNum = 1 + parseInt(Math.random()*2);
             let imagen= `imagenes/Paola${imagenNum}.jpg`
             console.log(imagen);
@@ -456,6 +496,15 @@ function logica () {
             let imagen= `imagenes/Oscar${imagenNum}.jpg`
             console.log(imagen);
             contenido=`<h4> Tu personaje es: <br> Oscar <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            finalizar();
+            return;
+        }
+
+        if (arreglo[cont]===46 && sino==="Si") {
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Hector${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Hector <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
