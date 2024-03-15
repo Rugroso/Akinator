@@ -1,13 +1,10 @@
 .titulo {
     text-align: center;
     margin-bottom: 1vw;
-    margin-bottom: 1vw;
     font-family: 'Arial', sans-serif;
-    font-size: 3vw; 
     font-size: 3vw; 
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    width: 20vw;
     width: 20vw;
 }
 html {
@@ -35,21 +32,15 @@ h1 {
     justify-content: center;
     background: rgba(209, 211, 196, 0.642);
     border-radius: 10vw;
-    border-radius: 10vw;
 }
 
 .preguntas {
-    font-size: 1.5vw;
     font-size: 1.5vw;
     text-align: center;
     width: 30vw;
     padding: 2.5vw;
     margin: 1vw auto;
-    width: 30vw;
-    padding: 2.5vw;
-    margin: 1vw auto;
     background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 2vw;
     border-radius: 2vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   
@@ -60,15 +51,12 @@ h1 {
 .preguntas button {
     margin: 1vw; 
     padding: 1vw 2vw;
-    margin: 1vw; 
-    padding: 1vw 2vw;
 }
 
 .centradoOg {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    width: 100vw;
     width: 100vw;
 }
 
@@ -78,19 +66,13 @@ h1 {
     align-items: center;
     flex-direction: column;
     border-radius: 2vw;
-    border-radius: 2vw;
     background: rgba(209, 211, 196, 0.642);
     border: solid;
-    border-width: 1vw;
     border-width: 1vw;
 }
 
 #akinator-container img {
-
-#akinator-container img {
     position: fixed;
-    left: -3vw;
-    top: -7vw;
     left: -3vw;
     top: -7vw;
     animation: floatAnimation 3s infinite ease-in-out;
@@ -110,5 +92,4 @@ h1 {
         transform: translateY(0);
     }
 }
-
 
