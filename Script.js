@@ -321,7 +321,7 @@ function logica () {
 
     if (arreglo[cont]===1 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [2, 3, 4, 5];
+        let arregloaux = [2, 3, 4, 5, 15];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -334,7 +334,7 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=4;
+        contPreguntasParecidas=5;
     }
 
     if (arreglo[cont]===3 && sino==="Si") {
@@ -464,7 +464,7 @@ function logica () {
             return;
         }
 
-        if (arreglo[cont]===30 && sino==="Si" || arreglo[cont]===52 && sino==="Si") {
+        if (arreglo[cont]===30 && sino==="Si") {
             let imagenNum = 1 + parseInt(Math.random()*2);
             let imagen= `imagenes/Paola${imagenNum}.jpg`
             console.log(imagen);
@@ -496,15 +496,6 @@ function logica () {
             let imagen= `imagenes/Oscar${imagenNum}.jpg`
             console.log(imagen);
             contenido=`<h4> Tu personaje es: <br> Oscar <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
-            finalizar();
-            return;
-        }
-
-        if (arreglo[cont]===46 && sino==="Si") {
-            let imagenNum = 1 + parseInt(Math.random()*2);
-            let imagen= `imagenes/Hector${imagenNum}.jpg`
-            console.log(imagen);
-            contenido=`<h4> Tu personaje es: <br> Hector <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
         }
