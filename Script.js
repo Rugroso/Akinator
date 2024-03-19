@@ -7,6 +7,7 @@ let contenido="";
 let numRandom=0;
 let preguntaRandom="";
 let mog = new Audio('Mog.mp3');
+let sigma = new Audio('Sigma.mp3');
 let mogBool = false;
 
 async function leerJson() {
@@ -45,7 +46,7 @@ function buttonTalvez() {
 
 
 function cargar() {
-    for (let i = 1; i <=53; i++) {
+    for (let i = 1; i <=55; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     document.getElementById("Si").style.display = 'none';
@@ -60,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciar() {
-    numRandom = 1 + parseInt(Math.random()*53);
+    numRandom = 1 + parseInt(Math.random()*55);
     arreglo[0]=numRandom;
     document.getElementById(`Pregunta${numRandom}`).style.display = 'block';
     document.getElementById("Si").style.display = 'block';
@@ -74,7 +75,7 @@ function finalizar() {
     document.getElementById("Si").style.display = 'none';
     document.getElementById("No").style.display = 'none';
     document.getElementById("Talvez").style.display = 'none';
-    for (let i = 1; i <= 53; i++) {
+    for (let i = 1; i <=55; i++) {
         document.getElementById(`Pregunta${i}`).style.display = 'none';
     }
     if (mogBool) {
@@ -91,10 +92,10 @@ function finalizar() {
 function generarRandom() {
     let vf = true;
     let encontrar = false;
-    if (arreglo.length<53) {
+    if (arreglo.length<55) {
         while (vf===true) {
             encontrar=false;
-            numRandom = 1 + parseInt(Math.random()*53);
+            numRandom = 1 + parseInt(Math.random()*55);
             console.log(`Se genero este numero: ${numRandom}`);
             for (let recorrer of arreglo) {
                 if (recorrer===numRandom) {
@@ -112,17 +113,13 @@ function generarRandom() {
     }
 }
 
-const filtrado = (arregloaux, valoraux) => {
-    //En construcción...
-}
-
 function logica () {
     let contPreguntasParecidas=0;
     contenido = "";
 
     if (arreglo[cont]===41 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [53];
+        let arregloaux = [42];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -138,7 +135,7 @@ function logica () {
         contPreguntasParecidas=1;
     }
 
-    if (arreglo[cont]===53 && sino==="Si") {
+    if (arreglo[cont]===42 && sino==="Si") {
         let valoraux=arreglo[cont];
         let arregloaux = [41];
         arregloaux.forEach(elemento => {
@@ -159,7 +156,7 @@ function logica () {
     if (arreglo[cont]===31 && sino==="Si") {
         console.log("Se ha realizado esta pregunta");
         let valoraux=arreglo[cont];
-        let arregloaux = [1, 32, 6, 9, 10, 15, 18, 30, 33, 38, 39, 3, 43, 44, 45, 46, 47, 49, 52];
+        let arregloaux = [1, 32, 6, 9, 10, 15, 18, 30, 33, 38, 39, 3, 43, 44, 45, 46, 47, 49, 52, 54, 55];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -172,7 +169,7 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=12;
+        contPreguntasParecidas=21;
     }
     
     if (arreglo[cont]===37 && sino==="Si") {
@@ -303,7 +300,7 @@ function logica () {
 
     if (arreglo[cont]===26 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [25, 3, 4, 5, 6, 15, 18, 20, 23, 32, 33, 36, 38, 40, 43, 44, 45, 46, 47, 48, 49, 50];
+        let arregloaux = [25, 3, 4, 5, 6, 15, 18, 20, 23, 32, 33, 36, 38, 40, 43, 44, 45, 46, 47, 48, 49, 50, 54, 55];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -316,12 +313,12 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=22;
+        contPreguntasParecidas=24;
     }
 
     if (arreglo[cont]===1 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [2, 3, 4, 5, 15];
+        let arregloaux = [2, 3, 4, 5, 15, 31];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -334,12 +331,12 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=5;
+        contPreguntasParecidas=6;
     }
 
     if (arreglo[cont]===3 && sino==="Si") {
         let valoraux=arreglo[cont];
-        let arregloaux = [1, 2, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 23, 24, 26, 29, 30, 31, 32, 36, 38, 39, 40];
+        let arregloaux = [1, 2, 4, 5, 6, 8, 10, 12, 13, 14, 16, 18, 23, 24, 26, 29, 30, 31, 32, 36, 38, 39, 40, 43, 44, 45, 46, 47, 49, 52, 54, 55];
         arregloaux.forEach(elemento => {
             let indice = arreglo.indexOf(elemento);
             if (indice !== -1) {
@@ -352,7 +349,7 @@ function logica () {
                 cont=indice;
             }
         });
-        contPreguntasParecidas=23;
+        contPreguntasParecidas=32;
     }
 
     if (arreglo[cont]===34 && sino==="Si") {
@@ -391,8 +388,8 @@ function logica () {
         contPreguntasParecidas=1;
     }
 
-    if (arreglo.length<=53) {
-        for (let i = 1; i <=53; i++) {
+    if (arreglo.length<=55) {
+        for (let i = 1; i <=55; i++) {
             document.getElementById(`Pregunta${i}`).style.display = 'none';
         }
         numRandom = 0;
@@ -414,6 +411,7 @@ function logica () {
             let imagenNum = 1 + parseInt(Math.random()*2);
             let imagen= `imagenes/Robin${imagenNum}.jpg`
             console.log(imagen);
+            sigma.play();
             contenido=`<h4> Tu personaje es: <br> Robin <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
             finalizar();
             return;
@@ -499,6 +497,15 @@ function logica () {
             finalizar();
             return;
         }
+        
+        if (arreglo[cont]===38 && sino==="Si" || arreglo[cont]===54 && sino==="Si" || arreglo[cont]===55 && sino==="Si" ) {
+            let imagenNum = 1 + parseInt(Math.random()*2);
+            let imagen= `imagenes/Cesar${imagenNum}.jpg`
+            console.log(imagen);
+            contenido=`<h4> Tu personaje es: <br> Cesar <br> <img src = "${imagen}" width = "200px" height = "auto" ><br> <h4>`;
+            finalizar();
+            return;
+        }
 
         const analizarPersonajes = (personajesICC) => {
             personajesICC.forEach(tilin => {
@@ -529,7 +536,7 @@ function logica () {
 
         analizarPersonajes(tilines);
         let max=0;
-        if (arreglo.length>=53) {
+        if (arreglo.length>=55) {
             tilines.forEach(tilin => {
                 if (tilin.Acumulado>=max) {
                     max=tilin.Acumulado;
@@ -538,6 +545,13 @@ function logica () {
 
             tilines.forEach(tilin => {
                 if (tilin.Acumulado==max) {
+                    if (tilin.Nombre==="Robin") {
+                        sigma.play();
+                    }
+                    if (tilin.Nombre==="Dario") {
+                        mog.play();
+                        mogBool = true;
+                    }
                     console.log(tilin.Acumulado);
                     console.log(tilin.Nombre);
                     let imagenNum = 1 + parseInt(Math.random()*2);
